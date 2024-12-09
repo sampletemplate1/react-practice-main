@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgba(224, 207, 207, 0.5);
+    padding-top: 10px;
+    padding-bottom: 2px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    width: 100%;
+    border-bottom: 1px solid rgb(221, 211, 211);
+}
+.right{
+    position: absolute;
+    right: 30px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding: 0px 15px;
+    display: inline-block;
+}
+nav a:hover{
+    color: blue;
+}
