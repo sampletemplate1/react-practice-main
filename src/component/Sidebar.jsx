@@ -19,6 +19,7 @@ export default function Sidebar() {
           <Link to='/form'>Form Question</Link>
           <Link to='/formikform'>Formik Form </Link>
           <Link to='/get-method'>Get Method</Link>
+          <Link to='/post-method'>Post Method</Link>
           <Link to='/simple-form'>Form without Formik</Link>
           <Link to='/simple-form2'>Form without Formik 2</Link>
           <Link to='/simpleformwithoutvad'>Form without Vadilation</Link>

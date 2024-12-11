@@ -68,7 +68,7 @@ export default function PostMethod() {
             {errors.salary && touched.salary && <div>{errors.salary}</div> }
           </div>
           <div className="col-md-12">
-            <label className="form-label lab">Salary</label>
+            <label className="form-label lab">Age</label>
             <input
               name="age"
               type="text"
